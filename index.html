@@ -1,1 +1,48 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="green">
+      <div class="jack"></div>
+      <h2>Blackjack-Game</h2>
+      <div class="header">
+        <div class="opt">
+          <input
+            type="button"
+            id="reset"
+            class="pressbutton"
+            value="START"
+            onclick="beginBJGame()"
+          />
+          <input
+            type="button"
+            class="pressbutton"
+            value="HIT"
+            onclick="hit()"
+          />
+          <input
+            type="button"
+            class="pressbutton"
+            value="STAND"
+            onclick="stand()"
+          />
+        </div>
+
+        <div class="stateOfGame" id="stateOfGame"></div>
+
+        <div id="boardDk" class="boardDk">
+          <div id="total-number-cards">52</div>
+        </div>
+
+        <div id="competitors" class="competitors"></div>
+      </div>
+    </div>
+  </body>
+</html>

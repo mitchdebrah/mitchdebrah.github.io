@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Lemon&display=swap");
+
+body {
+  font-family: "Codystar", cursive;
+  font-family: "Lemon", cursive;
+  /* background-image: url('https://static3.depositphotos.com/1000855/119/i/950/depositphotos_1193969-stock-photo-background-from-playing-cards.jpg');
+ */
+}
+
+.pressbutton {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgb(68, 188, 201);
+  color: rgb(4, 0, 0);
+  border-radius: 0px;
+  border: solid 2px rgb(222, 141, 141);
+  font-family: "Lemon", cursive;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(225, 201, 201, 0),
+    rgba(19, 34, 52, 0.79)
+  );
+}
+
+.pressbutton:hover {
+  background: #20916d;
+}
+
+h2 {
+  padding: 20px;
+  color: rgb(3, 25, 41);
+  text-align: center;
+  position: relative;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+  color: #240845;
+  text-shadow: 1px 1px 1px #b82020, 1px 2px 1px #672b2b, 1px 3px 1px #391c1c,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #934141,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #6d3535,
+    1px 10px 1px #744242, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.card {
+  width: 50px;
+  height: 80px;
+  padding: 10px;
+  border: solid 10px #5b0c71;
+
+  display: inline-flex;
+  border-radius: 10px;
+  font-size: 10pt;
+  text-align: center;
+  margin: 3px;
+  border: solid 3px;
+  color: rgb(5, 1, 11);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(225, 201, 201, 0),
+    rgba(22, 111, 220, 0.79)
+  );
+  text-decoration: aquamarine;
+  background-color: aqua;
+  position: relative;
+}
+
+.stateOfGame {
+  display: inline-flex;
+  background: rgb(68, 188, 201);
+  border: solid 2px rgb(222, 141, 141);
+  border-radius: 10px;
+  padding: 7px 20px;
+  margin: 19px;
+  margin-top: px;
+  display: none;
+  position: relative;
+  right: 235px;
+  position: absolute;
+  top: 57px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(225, 201, 201, 0),
+    rgba(24, 35, 48, 0.79)
+  );
+
+  color: rgb(10, 1, 16);
+}
+
+.competitors {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.player {
+  width: 40%;
+  border: solid 5px #2e056f;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin: 2%;
+  vertical-align: top;
+  background: #49a0b3;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(225, 201, 201, 0),
+    rgba(2, 8, 14, 0.79)
+  );
+}
+
+.player.current {
+  border: solid 5px rgb(216, 94, 94);
+}
+
+.scorepts {
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 10px;
+  color: rgb(216, 42, 42);
+}
+
+.boardDk {
+  float: left;
+  background: rgb(68, 188, 201);
+  color: rgb(216, 94, 94);
+  padding: 7px;
+  border-radius: 10px;
+  border: solid 2px;
+  position: relative;
+  top: -120px;
+  right: -250px;
+  margin: 0 auto;
+  width: 40px;
+  margin: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(225, 201, 201, 0),
+    rgba(21, 29, 38, 0.79)
+  );
+}
+
+#total-number-cards {
+  color: black;
+}
+
+div {
+  color: rgb(3, 4, 0);
+}
+
+/* div#player_0 {
+  display:none;
+}
+
+
+div#player_0::after {
+  content: "Dealer";
+} 
+
+ */
+
+.green {
+  width: 820px;
+  border: solid 3px rgb(4, 69, 30);
+  margin: 0 auto;
+  background-color: #80c9b2;
+
+  text-align: center;
+  min-height: 630px;
+  position: relative;
+
+  background-image: url("https://fuzzco.com/wp-content/uploads/2015/02/deck.jpg");
+
+  height: 100;
+  width: 100;
+}
